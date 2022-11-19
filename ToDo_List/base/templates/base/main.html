@@ -108,8 +108,44 @@
                 font-size: 22px;
                 line-height: 0;
                 padding: 20px 0px;
+<<<<<<< HEAD
                 margin-right: 20px;
             }  
+=======
+            }
+    
+            /*Handle Classes*/
+    
+            .handle {
+                display: inline-block;
+                padding: 20px 16px;
+                cursor: grab;
+                user-select: none;
+            }
+    
+            .handle:after,
+            .handle:before {
+                display: block;
+                content: "";
+            }
+    
+            .handle:active,
+            .handle:active:before,
+            .handle:active:after {
+                cursor: grabbing;
+            }
+    
+            .dropArea {
+                background-color: #f1f2f6;
+                color: black;
+                border: #ced6e0 1px solid;
+            }
+    
+            .selectedTask {
+                opacity: 0.6;
+            }
+    
+>>>>>>> refs/remotes/origin/main
     
             #add-link {
                 color: #EB796F;
@@ -125,10 +161,23 @@
                 padding: 20px;
             }
     
+<<<<<<< HEAD
             input[type=text],
             input[type=password],
             textarea {
                 border: 1px solid #EB796F;
+=======
+            @media screen and (max-width:320px) {
+                #search-add-wrapper {
+                    padding: 10px;
+                }
+            }
+    
+            input[type=text],
+            input[type=password],
+            textarea {
+                border: 1px solid #757575;
+>>>>>>> refs/remotes/origin/main
                 border-radius: 5px;
                 padding: 10px;
                 width: 90%;
@@ -145,8 +194,13 @@
             }
     
             .button {
+<<<<<<< HEAD
                 border: 1px solid #EB796F;
                 background-color: #FAFAFA;
+=======
+                border: 1px solid #757575;
+                background-color: #FFF;
+>>>>>>> refs/remotes/origin/main
                 color: #EB796F;
                 padding: 10px;
                 font-size: 14px;
