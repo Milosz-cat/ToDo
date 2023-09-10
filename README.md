@@ -1,5 +1,5 @@
 # ToDo-App
-Simple ToDo App with build with Django
+Simple ToDo App build with Django
 
 ## Features
 - task CRUD functionality
